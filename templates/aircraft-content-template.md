@@ -22,7 +22,7 @@ pages:
   - id: ""
     title: ""
     format: "normal-checklist | combat-fence | weapons-employment | sensors-and-avionics | navigation | carrier-operations | engine-management | emergency | reference-tables | cockpit-controls | mission-data-card"
-    target_style: "ww2-day | ww2-night | cold-war-day | cold-war-night | modern-unified"
+    target_style: "ww2-day | ww2-night | cold-war-day | cold-war-night | modern-day | modern-night"
     density: "sparse | normal | dense | emergency-card"
     sections:
       - id: ""

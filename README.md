@@ -72,7 +72,8 @@ and maintain.
 - WWII Night
 - Cold War Day
 - Cold War Night
-- Modern Unified
+- Modern Day
+- Modern Night
 
 ## Suggested Workflow
 

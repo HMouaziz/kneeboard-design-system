@@ -29,6 +29,7 @@ Optional:
 
 - DCS module name.
 - Day/night target.
+- Whether paired day/night outputs are required.
 - Desired page count.
 - Desired density: sparse, normal, dense, emergency-card.
 - Known user preferences.
@@ -48,6 +49,8 @@ The final HTML/PNG should obey these rules:
 - Optional items are visibly muted.
 - Page numbering is present unless the style guide says otherwise.
 - No style-specific decisions are embedded in content data.
+- Paired day/night outputs use the same content, section order, and page breaks
+  unless readability requires a documented exception.
 
 ## Workflow
 
@@ -152,5 +155,5 @@ Example:
 fw190-a8_ww2-day_normal_01.html
 fw190-a8_ww2-day_weapons_01.png
 f14b_cold-war-night_carrier_01.png
-ah64d_modern-unified_reference_03.png
+ah64d_modern-night_reference_03.png
 ```

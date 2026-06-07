@@ -40,7 +40,10 @@ Avoid:
 
 Mission data cards should be clean and writable-looking, even when exported to PNG.
 
-Modern Unified is the best default style.
+Modern Day is the best default for printable or writable mission cards.
+
+Modern Night should be used for in-cockpit night reference, with outlined fields
+and restrained fills to reduce glare.
 
 Cold War Day also works well for analog mission cards.
 

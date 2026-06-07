@@ -84,7 +84,8 @@ Do not group by system unless the source is already a systems checklist and the 
 
 - WW2 styles may include more engine warmup and manual power management.
 - Cold War styles may include more avionics and navigation setup, but large avionics flows should move to dedicated formats.
-- Modern Unified should keep normal checklist lean and move mission/sensor setup elsewhere.
+- Modern Day and Modern Night should keep the normal checklist lean and move
+  mission or sensor setup elsewhere.
 
 ## Example section skeleton
 

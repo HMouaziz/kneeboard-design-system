@@ -87,7 +87,8 @@ kb-style-ww2-day
 kb-style-ww2-night
 kb-style-cold-war-day
 kb-style-cold-war-night
-kb-style-modern-unified
+kb-style-modern-day
+kb-style-modern-night
 ```
 
 ## Rendering rules
@@ -113,6 +114,7 @@ For example:
 - WW2 Day may make it yellow.
 - WW2 Night may make it dim amber.
 - Cold War Day may use a boxed caution strip.
-- Modern Unified may use a high-contrast accent chip.
+- Modern Day may use a high-contrast accent chip.
+- Modern Night may use an amber outline or side marker.
 
 The content should never say `yellow`.

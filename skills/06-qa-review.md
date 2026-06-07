@@ -31,6 +31,8 @@ Review the generated kneeboard for cockpit usability, consistency, and source fi
 - Muted items are readable but secondary.
 - Header/footer/page number are consistent.
 - The page still looks like part of the design system, not a copy of the source.
+- Paired day/night variants preserve content, section order, and page numbering.
+- Night variants reduce glare rather than simply inverting day colors.
 
 ### Readability
 
