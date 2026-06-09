@@ -1,6 +1,6 @@
 aircraft: Fw 190 A-8
 module: FW-190A8
-artifact_statement: A Luftwaffe technical field form issued with an operational fighter.
+artifact_statement: An issued Luftwaffe cockpit operating card derived from a technical field form.
 design:
   archetype: technical-field-form
   treatment: luftwaffe-ww2

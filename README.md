@@ -61,7 +61,7 @@ and maintain.
 | [`styles/`](styles/) | Archetypes, treatments, lighting, and composed compatibility styles |
 | [`aircraft-profiles/`](aircraft-profiles/) | Example aircraft design compositions |
 | [`templates/`](templates/) | Content schema, page specification, and HTML class contract |
-| [`examples/`](examples/) | Sample observations and page-planning decisions |
+| [`examples/`](examples/) | Worked examples, observations, and page-planning decisions |
 | [`publishing/`](publishing/) | Packaging, GitHub Release, and DCS User Files workflow |
 
 ## Supported Page Formats
@@ -108,6 +108,20 @@ document.
 
 The examples are illustrative rather than authoritative. Replace their aircraft
 details with information verified against your chosen source material.
+
+## Canonical Example
+
+The [Fw 190 A-8 Anton example](examples/fw190-a8/) is the first complete,
+source-safe worked pack in the repository. It includes:
+
+- Pack metadata and page-planning decisions
+- Complete day and low-glare night HTML/CSS source
+- The composed technical-field-form and Luftwaffe WWII treatment
+- A release cover and representative rendered previews
+- Explicit licensing for reusable system code and aircraft-specific artwork
+
+Manuals, extracted guide text, installable archives, and the complete generated
+PNG set remain outside the repository.
 
 ## Design Principles
 

@@ -1,0 +1,58 @@
+pack:
+  id: "fw190-a8-anton-quickstart"
+  title: "Fw 190 A-8 Anton Quickstart Kneeboard"
+  version: "1.0.0"
+  aircraft: "Fw 190 A-8 Anton"
+  dcs_module_folders:
+    - "FW-190A8"
+  author: "HMouaziz"
+  license: "CC BY-NC-SA 4.0"
+  status: "reviewed"
+
+design:
+  profile: "../../aircraft-profiles/fw190-a8.yaml"
+  artifact_statement: "An issued Luftwaffe cockpit operating card derived from a technical field form."
+  archetype: "technical-field-form"
+  treatment: "luftwaffe-ww2"
+  variants:
+    - day
+    - night
+
+content:
+  accuracy_mode: "dcs-practical"
+  sources:
+    - title: "Original Fw 190 A-8 quick checklist"
+      type: "existing-card"
+      version_or_date: "user supplied"
+    - title: "DCS FW190A-8 Guide"
+      type: "guide"
+      version_or_date: "April 2025 revision"
+  pages:
+    - number: 1
+      id: "normal"
+      title: "Normal Procedures"
+      format: "normal-checklist"
+    - number: 2
+      id: "engine-reference"
+      title: "Engine & Flight Reference"
+      format: "engine-management + reference-tables"
+    - number: 3
+      id: "combat-weapons"
+      title: "Combat & Weapons"
+      format: "combat-fence + weapons-employment"
+
+distribution:
+  install_root: "Kneeboard"
+  archive_name: "fw190-a8-anton-quickstart-v1.0.0.zip"
+  github_release_url: ""
+  dcs_user_files_url: ""
+  listing_status: "submitted for DCS User Files moderation"
+
+verification:
+  dimensions: "1200x1600"
+  day_night_content_match: true
+  checked_on: "2026-06-09"
+  notes:
+    - "Both variants are included in one archive."
+    - "Installation paths are relative to the active DCS Saved Games profile."
+    - "DCS User Files submission is awaiting moderation."
