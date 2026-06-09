@@ -23,6 +23,9 @@ Required:
 - Aircraft name and variant.
 - Source material: image, PDF, existing kneeboard, manual excerpt, or notes.
 - Target style: one of the style design docs.
+- Artifact statement: what physical or operational document should this feel
+  like?
+- Design profile: document archetype, aircraft treatment, and lighting profile.
 - Target format or set of formats: one or more format design docs.
 
 Optional:
@@ -110,15 +113,35 @@ Page count should be driven by cockpit use:
 - Reference material may be split into several focused cards.
 - Do not make a page dense just to avoid an extra PNG.
 
-### 5. Render to HTML
+### 5. Select the document identity
 
-Use `skills/05-html-rendering.md` and the selected style doc.
+Use `skills/05-design-composition.md` and `styles/README.md`.
+
+Write one sentence:
+
+```txt
+This kneeboard should feel like:
+________________________________
+```
+
+Then select:
+
+- a document archetype from `styles/archetypes/`
+- an aircraft treatment from `styles/treatments/`
+- day/night behavior from `styles/lighting/`
+
+Record the composition in an aircraft profile. Do not invent a new archetype
+when the distinction is limited to colors, insignia, or typography.
+
+### 6. Render to HTML
+
+Use `skills/06-html-rendering.md` and the selected design profile.
 
 HTML should use semantic classes from `templates/html-class-contract.css`.
 
-### 6. QA review
+### 7. QA review
 
-Use `skills/06-qa-review.md`.
+Use `skills/07-qa-review.md`.
 
 Review for:
 
@@ -129,6 +152,16 @@ Review for:
 - Day/night suitability.
 - Section type correctness.
 - Whether source quirks have been accidentally copied.
+- Whether the page still resembles the selected physical artifact.
+
+### 8. Package and publish
+
+Use `publishing/README.md` and create a pack manifest from
+`templates/pack-manifest-template.yaml`.
+
+Full generated packs belong in ignored `output/`, GitHub Releases, or DCS User
+Files. Commit only representative examples and source-safe documentation to the
+design-system repository.
 
 ## Source observations from the sample batch
 
@@ -140,20 +173,31 @@ The expanded sample set suggests these format families are necessary:
 - Modern aircraft such as the F-16 need tighter separation between normal procedures, combat setup, avionics/sensors, weapons, and mission data.
 - Helicopters such as the AH-64D need a strong `reference-tables` and `cockpit-controls` family because station roles, symbols, radios, and weapon codes can dominate the kneeboard.
 
-## Naming convention
+## Naming conventions
 
-Suggested page names:
+Authoring files retain the style for traceability:
 
 ```txt
-<aircraft>_<style>_<format>_<page-number>.html
-<aircraft>_<style>_<format>_<page-number>.png
+<aircraft>_<style>_<page-number>_<format>.html
 ```
+
+DCS export PNGs omit the style because the selected day/night pack is installed
+as a unit:
+
+```txt
+<aircraft>_<page-number>_<format>.png
+```
+
+Place the zero-padded page number before the format in both conventions so
+ordinary lexical sorting preserves kneeboard page order. Day and night exports
+may use the same PNG names when stored or distributed in separate pack folders.
 
 Example:
 
 ```txt
-fw190-a8_ww2-day_normal_01.html
-fw190-a8_ww2-day_weapons_01.png
-f14b_cold-war-night_carrier_01.png
-ah64d_modern-night_reference_03.png
+fw190-a8_ww2-german-day_01_normal.html
+fw190-a8_01_normal.png
+fw190-a8_03_weapons.png
+f14b_01_carrier.png
+ah64d_03_reference.png
 ```

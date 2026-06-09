@@ -7,7 +7,11 @@ page:
   aircraft: ""
   title: ""
   subtitle: ""
-  style: ""
+  design:
+    profile: ""
+    archetype: ""
+    treatment: ""
+    lighting: ""
   format: ""
   page_number: 1
   page_count: 1
@@ -35,7 +39,10 @@ page:
 Before rendering, decide:
 
 ```txt
-style
+artifact statement
+document archetype
+aircraft treatment
+lighting profile
 format
 page title
 page density

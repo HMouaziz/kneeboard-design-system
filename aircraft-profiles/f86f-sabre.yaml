@@ -1,0 +1,8 @@
+aircraft: F-86F Sabre
+module: F-86F Sabre
+artifact_statement: A checklist sheet pulled from a punched USAF technical-order binder.
+design:
+  archetype: punched-technical-order
+  treatment: usaf-early-cold-war
+  lighting: [paper-day, low-glare-night]
+formats: [normal-checklist, engine-management, navigation, weapons-employment, emergency]

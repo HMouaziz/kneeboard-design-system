@@ -1,0 +1,8 @@
+aircraft: Fw 190 A-8
+module: FW-190A8
+artifact_statement: A Luftwaffe technical field form issued with an operational fighter.
+design:
+  archetype: technical-field-form
+  treatment: luftwaffe-ww2
+  lighting: [paper-day, low-glare-night]
+formats: [normal-checklist, engine-management, weapons-employment]

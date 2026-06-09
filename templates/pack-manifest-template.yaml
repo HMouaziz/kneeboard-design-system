@@ -1,0 +1,43 @@
+pack:
+  id: ""
+  title: ""
+  version: "1.0.0"
+  aircraft: ""
+  dcs_module_folders:
+    - ""
+  author: ""
+  license: ""
+  status: "draft | reviewed | released"
+
+design:
+  profile: ""
+  artifact_statement: ""
+  archetype: ""
+  treatment: ""
+  variants:
+    - day
+    - night
+
+content:
+  accuracy_mode: "dcs-practical | real-manual | hybrid"
+  sources:
+    - title: ""
+      type: "manual | guide | existing-card | notes"
+      version_or_date: ""
+  pages:
+    - number: 1
+      id: ""
+      title: ""
+      format: ""
+
+distribution:
+  install_root: "Kneeboard"
+  archive_name: ""
+  github_release_url: ""
+  dcs_user_files_url: ""
+
+verification:
+  dimensions: "1200x1600"
+  day_night_content_match: true
+  checked_on: ""
+  notes: []

@@ -2,12 +2,13 @@
 
 ## Goal
 
-Render a kneeboard page using semantic HTML classes so that style guides can control the visual appearance.
+Render a kneeboard page using semantic HTML classes so that composed design
+profiles can control the visual appearance.
 
 ## Required structure
 
 ```html
-<main class="kb-page kb-style-ww2-day kb-format-normal">
+<main class="kb-page kb-style-ww2-german-day kb-format-normal">
   <header class="kb-header">
     <div class="kb-title">Fw 190 A-8</div>
     <div class="kb-subtitle">Anton</div>
@@ -83,13 +84,35 @@ kb-format-mission-data
 Style classes:
 
 ```txt
-kb-style-ww2-day
-kb-style-ww2-night
+kb-style-ww2-german-day
+kb-style-ww2-german-night
 kb-style-cold-war-day
 kb-style-cold-war-night
 kb-style-modern-day
 kb-style-modern-night
 ```
+
+New implementations should also expose composition classes where practical:
+
+```txt
+kb-archetype-technical-field-form
+kb-archetype-pilot-briefing-ledger
+kb-archetype-punched-technical-order
+kb-archetype-display-team-folio
+kb-archetype-squadron-sortie-card
+
+kb-treatment-luftwaffe-ww2
+kb-treatment-raf-ww2
+kb-treatment-usaf-early-cold-war
+kb-treatment-italian-display-team
+kb-treatment-french-interceptor
+
+kb-lighting-paper-day
+kb-lighting-low-glare-night
+```
+
+Legacy monolithic style classes remain valid. Composition classes make future
+reuse and aircraft variants easier.
 
 ## Rendering rules
 
@@ -111,8 +134,8 @@ For example:
 <div class="kb-row kb-critical">...</div>
 ```
 
-- WW2 Day may make it yellow.
-- WW2 Night may make it dim amber.
+- WW2 German Day may make it a red-marked form row.
+- WW2 German Night may make it a dim oxide-red outlined row.
 - Cold War Day may use a boxed caution strip.
 - Modern Day may use a high-contrast accent chip.
 - Modern Night may use an amber outline or side marker.

@@ -12,7 +12,7 @@ Use for night versions of F-5E, MiG-21, Mirage F1, AJS-37, F-4, F-14, and simila
 night cockpit checklist + phosphor/amber technical card
 ```
 
-This should feel more instrument-panel-like than WW2 Night.
+This should feel more instrument-panel-like than origin-specific wartime night styles.
 
 ## Palette
 
@@ -42,7 +42,7 @@ Avoid:
 - technical condensed sans-serif
 - tabular numerals for speeds/frequencies
 - compact but readable
-- stronger table support than WW2 Night
+- stronger table support than wartime origin styles
 
 ## Layout
 
@@ -74,4 +74,3 @@ caution: thin amber side marker
 - carrier-operations
 - reference-tables
 - emergency
-

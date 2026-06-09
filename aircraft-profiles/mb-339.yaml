@@ -1,0 +1,8 @@
+aircraft: MB-339A / PAN
+module: MB-339A
+artifact_statement: A professional flight folio used by an Italian demonstration and training team.
+design:
+  archetype: display-team-folio
+  treatment: italian-display-team
+  lighting: [paper-day, low-glare-night]
+formats: [normal-checklist, engine-management, navigation, weapons-employment, emergency]

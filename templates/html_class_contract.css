@@ -1,8 +1,15 @@
 /* Kneeboard Design System: semantic class contract
    This is not a full style. Each style guide may implement these classes differently. */
 
+/* Design composition classes belong on .kb-page. Legacy kb-style-* classes
+   remain valid for existing composed implementations. */
+
 .kb-page {}
 .kb-header {}
+.kb-origin-mark {}
+.kb-origin-stripe {}
+.kb-document-field {}
+.kb-document-stamp {}
 .kb-title {}
 .kb-subtitle {}
 .kb-mode {}
@@ -29,12 +36,30 @@
 .kb-dcs-specific {}
 
 /* styles */
-.kb-style-ww2-day {}
-.kb-style-ww2-night {}
+.kb-style-ww2-german-day {}
+.kb-style-ww2-german-night {}
 .kb-style-cold-war-day {}
 .kb-style-cold-war-night {}
 .kb-style-modern-day {}
 .kb-style-modern-night {}
+
+/* document archetypes */
+.kb-archetype-technical-field-form {}
+.kb-archetype-pilot-briefing-ledger {}
+.kb-archetype-punched-technical-order {}
+.kb-archetype-display-team-folio {}
+.kb-archetype-squadron-sortie-card {}
+
+/* aircraft treatments */
+.kb-treatment-luftwaffe-ww2 {}
+.kb-treatment-raf-ww2 {}
+.kb-treatment-usaf-early-cold-war {}
+.kb-treatment-italian-display-team {}
+.kb-treatment-french-interceptor {}
+
+/* lighting */
+.kb-lighting-paper-day {}
+.kb-lighting-low-glare-night {}
 
 /* formats */
 .kb-format-normal {}

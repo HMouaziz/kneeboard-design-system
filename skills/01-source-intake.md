@@ -22,6 +22,7 @@ Detected page types:
 Detected sections:
 Special elements:
 Likely target formats:
+Documentation culture observations:
 Open questions:
 ```
 
@@ -83,6 +84,8 @@ Mark content shape because it affects layout:
 - Do not decide that source page count equals final page count.
 - Do not force aircraft quirks into global format rules.
 - Record uncertainty rather than guessing.
+- Record role and documentation-culture evidence that may inform the later
+  artifact statement, but do not select colors or an archetype during intake.
 
 ## Sample observation patterns
 

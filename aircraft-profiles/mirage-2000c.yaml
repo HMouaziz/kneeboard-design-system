@@ -1,0 +1,8 @@
+aircraft: Mirage 2000C
+module: M-2000C
+artifact_statement: A copied squadron sortie card carried by an interceptor pilot.
+design:
+  archetype: squadron-sortie-card
+  treatment: french-interceptor
+  lighting: [paper-day, low-glare-night]
+formats: [normal-checklist, engine-management, navigation, sensors-and-avionics, weapons-employment, emergency]

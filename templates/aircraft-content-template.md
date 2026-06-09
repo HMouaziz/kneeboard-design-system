@@ -11,6 +11,16 @@ aircraft:
   era: "ww2 | cold-war | modern"
   notes: ""
 
+artifact:
+  statement: "This kneeboard should feel like: ..."
+  archetype: ""
+  treatment: ""
+  lighting:
+    - "paper-day"
+    - "low-glare-night"
+  motif_notes:
+    - ""
+
 source:
   files:
     - ""
@@ -22,7 +32,8 @@ pages:
   - id: ""
     title: ""
     format: "normal-checklist | combat-fence | weapons-employment | sensors-and-avionics | navigation | carrier-operations | engine-management | emergency | reference-tables | cockpit-controls | mission-data-card"
-    target_style: "ww2-day | ww2-night | cold-war-day | cold-war-night | modern-day | modern-night"
+    design_profile: ""
+    lighting: "paper-day | low-glare-night"
     density: "sparse | normal | dense | emergency-card"
     sections:
       - id: ""
@@ -45,7 +56,8 @@ For quick manual work, this lighter format is acceptable:
 ```txt
 # Fw 190 A-8 / Anton
 Era: WW2
-Style: WW2 Day
+Style: WW2 German Day
+Artifact: A Luftwaffe technical field form issued with an operational fighter.
 Format: Normal Checklist
 
 ## Engine Start

@@ -26,13 +26,17 @@ Review the generated kneeboard for cockpit usability, consistency, and source fi
 
 ### Style
 
-- Style matches requested era/day/night target.
+- The artifact statement is visually credible before reading the aircraft name.
+- The document archetype remains recognizable across page formats.
+- Aircraft treatment adds character without redefining the entire layout.
+- Lighting matches the requested day/night target.
 - Critical items are visible but not visually obnoxious.
 - Muted items are readable but secondary.
 - Header/footer/page number are consistent.
 - The page still looks like part of the design system, not a copy of the source.
 - Paired day/night variants preserve content, section order, and page numbering.
 - Night variants reduce glare rather than simply inverting day colors.
+- Physical motifs do not overlap content or consume unjustified page area.
 
 ### Readability
 

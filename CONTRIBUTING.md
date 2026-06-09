@@ -5,9 +5,12 @@ separated from authoritative flight documentation.
 
 ## Before Opening a Pull Request
 
-- Keep content, format, and style concerns separate.
-- Explain the use case for a new format or style.
-- Prefer extending an existing guide when the distinction is only cosmetic.
+- Keep content, format, document archetype, aircraft treatment, and lighting
+  concerns separate.
+- Explain the physical artifact represented by a new archetype.
+- Prefer adding an aircraft treatment when the distinction is primarily
+  insignia, color, typography, service, or role.
+- Prefer extending an existing archetype when the distinction is only cosmetic.
 - Use fictional or minimal data where a real procedure is not necessary.
 - Cite the source category for procedural examples and avoid copying substantial
   text, diagrams, or artwork from copyrighted manuals.
@@ -31,7 +34,16 @@ Before submitting a change, check that:
 - The change does not imply official endorsement or real-world validation.
 - Operational values are either sourced and scoped or clearly placeholders.
 - A new format has a distinct content purpose.
-- A new style remains compatible with the semantic HTML class contract.
+- A new archetype has a distinct physical-document metaphor.
+- A treatment does not duplicate an archetype.
+- The design remains compatible with the semantic HTML class contract.
+
+## Rendered Examples
+
+Representative, source-safe PNGs may be committed under `examples/gallery/`.
+Do not commit complete release archives, extracted manuals, or large source
+files. Full packs belong in GitHub Releases, DCS User Files, or ignored
+`output/`.
 
 By contributing, you agree that your contribution is licensed under the
 repository's MIT License.

@@ -1,0 +1,8 @@
+aircraft: Spitfire LF Mk IX
+module: SpitfireLFMkIX
+artifact_statement: A pilot's briefing ledger carried from an RAF operations room.
+design:
+  archetype: pilot-briefing-ledger
+  treatment: raf-ww2
+  lighting: [paper-day, low-glare-night]
+formats: [normal-checklist, engine-management, weapons-employment]

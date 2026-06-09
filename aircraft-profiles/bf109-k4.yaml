@@ -1,0 +1,8 @@
+aircraft: Bf 109 K-4
+module: Bf-109K-4
+artifact_statement: A compact Luftwaffe engineering and operating card.
+design:
+  archetype: technical-field-form
+  treatment: luftwaffe-ww2
+  lighting: [paper-day, low-glare-night]
+formats: [normal-checklist, engine-management, weapons-employment]
