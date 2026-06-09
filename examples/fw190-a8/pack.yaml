@@ -56,3 +56,4 @@ verification:
     - "Both variants are included in one archive."
     - "Installation paths are relative to the active DCS Saved Games profile."
     - "DCS User Files submission is awaiting moderation."
+    - "Typography was enlarged after in-game DCS readability testing."

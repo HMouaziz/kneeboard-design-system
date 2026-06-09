@@ -60,6 +60,11 @@ The HTML files are intentionally static and explicit so authors can inspect
 the semantic class usage without first learning a build tool. Open any HTML
 file in a browser at a `1200 x 1600` viewport to reproduce its kneeboard page.
 
+The final typography was revised after an in-game DCS test. Body rows, notes,
+tables, and section headings were enlarged while retaining the original
+three-page structure. This is an example of cockpit testing overriding an
+otherwise acceptable full-resolution render.
+
 ## Representative pages
 
 ### Day
